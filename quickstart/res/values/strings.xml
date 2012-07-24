@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello Android quickstart string resource.</string>
+    <string name="app_name">quickstart</string>
+    <string name="my_button">My Button</string>
+    <string name="my_service_started">1234</string>
+    <string name="my_service_connected">2345</string>
+    <string name="my_service_disconnected">3456</string>
+</resources>

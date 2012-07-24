@@ -1,0 +1,10 @@
+.DS_Store
+target
+.classpath
+.project
+.settings
+*.class
+*.svn*
+bin
+*.apk
+*.jar

@@ -1,0 +1,11 @@
+# Authentication token for calling Google C2DM services. See dataMessagingToken.txt
+POST https://www.google.com/accounts/ClientLogin
+accountType=GOOGLE_OR_HOSTED&Email=drepics%40netzero.net&Passwd=XXXXXXXXX&service=ac2dm&source=LEVEL-GetTheMessage-1.0
+
+curl https://www.google.com/accounts/ClientLogin -d Email=FOO@gmail.com -d "Passwd=FooPassWord" -d accountType=GOOGLE -d source=FOOServer -d service=ac2dm
+
+ curl https://www.google.com/accounts/ClientLogin -d Email=untiedt.dev@gmail.com -d "Passwd=googlydev" -d accountType=GOOGLE -d source=LEVEL-GetTheMessage-1.0 -d service=ac2dm
+SID=DQAAAKsAAAAiJnurT1h2Xl0Zb-Lqf-KjRy5KTXuB1yWhTXILnZX8t88xDtkItYbWT6KnBrHhO6xNnm68YFP5hzjxeh4tENriAC3m77GBzxfijhSXslkBAAcZGVtAQglkCa6VEgue4XQCsiAnslIk_wr3-0BodvaaWUfE2j2UO7royXyWN0hAWXxFm7jl844Noxh-upCz_C1B3UROPU2U5R-7OHy2uqiHdisAdY2dgJd2CVhfxOtDiw
+LSID=DQAAAK8AAAA474zCpUUl-U0BJiWwrfALXpAi1HwjWA7dBqUkCF01lK_DP9NE-dXUfZhrSIVN853FBlEEDoFyUK0SDEp9Alyp6I3hY28M8ilFH-MmwyZeUjrkYimXlYabnO6h7JCST8kdVR8DfKEVFEuUgSVn1aganPwcY6uP1NZEHNXwcfQKrbrDxZaCS-Oxo8vervaNJPvNbdS9hf_4e94LSmmrxPfX7JgjiOZLPRG9_pOAbdlh-g
+Auth=DQAAALAAAADm2u2z5Qn3IAYqkb9elHxBwbrVkkUwD4jpOJGY7JkBj-j1XSehogQNSoY_JCh55DOigc0uk7Znft5OEBJk3xmQ_FBlh0QSZqpGpSCV1RtAaEiFFfVx-Xk04H6UqyjYYEUM9h4OykmSmATjvqp0gpfAXKF7LqVJF6NsYo2EXAjxCQGbOXk4T9iYq2p23T4aU1V1iKQzg0n4DldP7LgVSWBrXSi0ww9ZiHvM3BPwpoXdYg
+

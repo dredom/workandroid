@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.rosetta.sample</groupId>
+  <artifactId>tweeter1-parent</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>tweeter1 - Parent</name>
+
+  <parent>
+    <groupId>com.lvlstudios</groupId>
+    <artifactId>base-tools-pom</artifactId>
+    <version>1.0</version>
+  </parent>
+
+  <modules>
+        <module>tweeter1</module>
+        <module>tweeter1-it</module>
+  </modules>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+          <groupId>com.google.android</groupId>
+          <artifactId>android</artifactId>
+          <version>4.0.1.2</version>
+          <scope>provided</scope>
+      </dependency>
+      <dependency>
+          <groupId>com.google.android</groupId>
+          <artifactId>android-test</artifactId>
+          <version> 4.0.1.2</version>
+          <scope>provided</scope>
+      </dependency>
+
+      <dependency>
+          <groupId>junit</groupId>
+          <artifactId>junit</artifactId>
+          <version>4.8.2</version>
+          <scope>provided</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+            <groupId>com.jayway.maven.plugins.android.generation2</groupId>
+            <artifactId>android-maven-plugin</artifactId>
+            <version>3.2.0</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+</project>
